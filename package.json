@@ -1,15 +1,16 @@
 {
-  "name": "messenger-24-7-bot",
+  "name": "messenger-247-bot",
   "version": "1.0.0",
-  "description": "24/7 Messenger Bot with DP Background",
+  "description": "24/7 Persistent Messenger Bot developed by Raj Mishra",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "messagix-js": "^0.1.0",
-    "ws": "^8.16.0"
+    "express": "latest",
+    "messagix-js": "latest",
+    "pino-pretty": "latest",
+    "ws": "latest"
   },
   "engines": {
     "node": ">=18.0.0"
